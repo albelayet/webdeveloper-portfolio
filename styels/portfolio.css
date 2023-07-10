@@ -1,24 +1,27 @@
 /* adding front  */
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
 /* Adding Nav Styles */
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 220px;
     padding: 50px 0;
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-family: Open Sans;
     font-size: 45px;
@@ -26,7 +29,8 @@ nav{
     font-weight: 800;
     line-height: normal;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -35,43 +39,50 @@ nav{
     font-weight: 700;
     padding: 15px 35px;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: #757575;
 }
+
 /* starting Header Style */
-.header{
+.header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
-.banner{
+.banner {
     display: flex;
     align-items: center;
     margin: 0 100px 0 220px;
     justify-content: space-between;
 }
-.banner-pic{
+
+.banner-pic {
     width: 500px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 45px;
     font-style: normal;
     font-weight: 600;
     color: #474747;
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-style: normal;
     font-weight: 700;
@@ -79,7 +90,8 @@ nav ul li a{
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.banner-des{
+
+.banner-des {
     display: flex;
     max-width: 585px;
     margin-bottom: 30px;
@@ -89,25 +101,33 @@ nav ul li a{
     font-style: normal;
     font-weight: 400;
 }
+
 /* ending header style */
+/* starting main section style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* starting about section style */
 
-.about{
+.about {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
     padding: 130px;
 }
-.section-title{
-    color:#181818;
+
+.section-title {
+    color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
     padding-bottom: 30px;
 }
-.section-des{
-    color:#757575;
+
+.section-des {
+    color: #757575;
     text-align: center;
     font-family: Open Sans;
     font-size: 18px;
@@ -115,13 +135,15 @@ nav ul li a{
     font-weight: 400;
     line-height: 30px;
 }
-.about-content{
+
+.about-content {
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
     align-items: center;
 }
-.about-info{
+
+.about-info {
     align-items: center;
     color: #757575;
     text-align: center;
@@ -132,4 +154,42 @@ nav ul li a{
     line-height: 30px;
 }
 
+/* what i do section style start here */
 
+#what-content {
+    margin-bottom: 30px;
+}
+
+.what-container {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.what-info {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    text-align: justify;
+}
+
+.what-info img {
+    /* padding: 30px 0; */
+}
+
+.what-title {
+    padding: 20px 0;
+    color: #181818;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.what-des {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
